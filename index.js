@@ -3,6 +3,9 @@ const { Client, Intents } = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_MEMBERS] });
 const mongoose = require('mongoose');
 const config = require('./config.json');
+const DEL = require("@zerotwobot/del.js");
+const del = new DEL(config.DEL, client.user.id);
+const cron = require('node-cron');
 
 // Connect to MongoDB
 mongoose.connect(config.mongo, {
@@ -17,6 +20,10 @@ mongoose.connect(config.mongo, {
 client.on('ready', () => {
     client.user.setActivity('with nicknames', { type: 'PLAYING' });
     console.log('Logged in as ' + client.user.tag);
+
+    cron.schedule('*/30 * * * *', () => { // Every 30 minutes
+        del.post(client.guilds.cache.size, 0)
+    });
 });
 
 client.on('guildCreate', async (guild) => {
