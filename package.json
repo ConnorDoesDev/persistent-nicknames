@@ -1,0 +1,22 @@
+{
+  "name": "persistentnicknames",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConnorDoesDev/persistent-nicknames.git"
+  },
+  "author": "Connor!#2003",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ConnorDoesDev/persistent-nicknames/issues"
+  },
+  "homepage": "https://github.com/ConnorDoesDev/persistent-nicknames#readme",
+  "dependencies": {
+    "discord.js": "^13.0.0"
+  }
+}
