@@ -19,99 +19,15 @@
         width: 450px;
         height: 350px;
     }
-    
-    img.logging-in-toggle {
-        width: 450px;
-        height: 350px;
-    }
-
-   img.store-toggle {
-        width: 450px;
-        height: 350px;
-    }
-    
-    img.notification-toggle {
-        width: 450px;
-        height: 350px;
-    }
-    
-    img.online-toggle {
-        width: 450px;
-        height: 350px;
-    }
-
-    img.more-guide {
-        width: 450px;
-        height: 350px;
-    }
-    
     .help-starting-guide {
         padding: 10px 10px 10px;
         display: flex;
         padding-left: 2%;
         flex-direction: row;
     }
-    
-    .logging-in-starting-guide {
-        padding: 10px 10px 10px;
-        display: flex;
-        padding-left: 2%;
-        flex-direction: row;
-    }
-
-    .store-starting-guide {
-        padding: 10px 10px 10px;
-        display: flex;
-        padding-left: 2%;
-        flex-direction: row;
-    }
-    
-    .notification-starting-guide {
-        padding: 10px 10px 10px;
-        display: flex;
-        padding-left: 2%;
-        flex-direction: row;
-    }
-
-
-    .more-starting-guide {
-        padding: 10px 10px 10px;
-        display: flex;
-        padding-left: 2%;
-        flex-direction: row;
-    }
-    
-    
     .command-help-desc {
         padding-left: 2%;
     }
-    
-    .logging-in-toggle-desc {
-        padding-left: 2%;
-    }
-
-    .store-toggle-desc {
-        padding-left: 2%;
-    }
-    
-    .notification-toggle-desc {
-        padding-left: 2%;
-    }
-    
-    .more-guide-desc {
-        padding-left: 2%;
-    }
-
-    .more-guide-button {
-        display: block;
-        width: 140px;
-        padding: 10px 20px;
-        font-style: italic;
-        position: relative;
-        left: 0%;
-        color: pink;
-    }
-    
     h5.this-italic {
         font-style: italic;
     }
@@ -120,34 +36,7 @@
         .help-starting-guide {
             flex-direction: column;
         }
-        .logging-in-starting-guide {
-            flex-direction: column;
-        }
-        .store-starting-guide {
-            flex-direction: column;
-        }
-        .notification-starting-guide {
-            flex-direction: column;
-        }
-        .online-starting-guide {
-            flex-direction: column;
-        }
-        .music-starting-guide {
-            flex-direction: column;
-        }
         .command-help-desc {
-            padding-top: 2%;
-        }
-        .logging-in-toggle-desc {
-            padding-top: 2%;
-        }
-        .store-toggle-desc {
-            padding-top: 2%;
-        }
-        .automod-toggle-desc {
-            padding-top: 2%;
-        }
-        .more-guide-desc {
             padding-top: 2%;
         }
     }
