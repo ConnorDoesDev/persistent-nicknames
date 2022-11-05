@@ -4,7 +4,7 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_
 const mongoose = require('mongoose');
 const config = require('./config.json');
 const DEL = require("@zerotwobot/del.js");
-const del = new DEL(config.DEL, client.user.id);
+const del = new DEL(config.DEL, config.clientID);
 const cron = require('node-cron');
 
 // Connect to MongoDB
