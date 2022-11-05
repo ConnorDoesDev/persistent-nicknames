@@ -9,7 +9,9 @@
 ```json
 {
     "token": "YOUR_BOT_TOKEN",
-    "mongo": "YOUR_MONGODB_CONNECTION_STRING"
+    "mongo": "YOUR_MONGODB_CONNECTION_STRING",
+    "DEL": "YOUR_DISCORDEXTREMELIST_API_KEY",
+    "clientID": "YOUR_BOT_CLIENT_ID"
 }
 ```
 5. Run `npm start` to start the bot
