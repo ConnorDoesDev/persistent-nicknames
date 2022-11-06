@@ -33,6 +33,10 @@ Manual removal of stored data can be requested through email at <a href="mailto:
 A copy of the stored data can be requested through email at <a href="mailto:legal@cstudios.gay">legal@cstudios.gay</a><br>
                     For security reasons, we will ask you to provide us with proof of ownership of the account that you wish the data to be copied and sent to you from.
 
+## Data Access 
+All data stored is encrypted and cannot be accessed by **anyone**, including the bot owner.<br>
+                    The only way to access the data is through the bot itself, which is only possible through the end-user.
+
 ## Questions or Concerns
 If you have any questions or concerns regarding the privacy policy, please contact us at <a href="mailto:legal@cstudios.gay">legal@cstudios.gay</a> or through our [Discord Server](https://discord.gg/a6WRfzWTEa).
 
