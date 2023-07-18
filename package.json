@@ -20,7 +20,7 @@
   "dependencies": {
     "@zerotwobot/del.js": "^1.2.0",
     "discord.js": "^13.0.0",
-    "mongoose": "^6.7.1",
+    "mongoose": "^6.11.3",
     "node-cron": "^3.0.2"
   }
 }
